@@ -1,0 +1,619 @@
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BonmyeongjoSourceHanSerif';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(175, 175, 175);
+}
+
+#container{
+    margin: 0 auto;
+    display: flex;
+}
+
+#mainContents{
+    width: 100%;
+    background-color: #f7f6f3;
+    overflow-x: hidden;
+}
+
+
+.row{
+    width: 100%;
+    display:flex;
+}
+
+.row2{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.col1{width: 8.3%; padding:0.2rem;}
+.col2{width: 16.6%; padding: 0.2rem;}
+.col3{width: 24.9%; padding: 0.2rem;}
+.col4{width: 33.2%; padding: 0.2rem;}
+.col5{width: 41.5%; padding: 0.2rem;}
+.col6{width: 49.8%; padding: 0.2rem;}
+.col7{width: 58.1%; padding: 0.2rem;}
+.col8{width: 66.4%; padding: 0.2rem;}
+.col9{width: 74.7%; padding: 0.2rem;}
+.col10{width: 83%; padding: 0.2rem;}
+.col11{width: 91.3%; padding: 0.2rem;}
+.col12{width: 100%; padding: 0.2rem;}
+
+.h-10{height:10px;}
+.h-20{height:20px;}
+.h-40{height:40px;}
+.h-50{height:50px;}
+.h-80{height:80px;}
+.h-100{height:100px;}
+.h-200{height:200px;}
+.h-300{height:300px;}
+
+.bg-white{background-color: white;}
+
+
+.imgsizeBox{
+    width: 100%;
+}
+
+.imgsize{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.menu{
+    list-style: none;
+
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.box{
+    height: 56px;
+    width: 250px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left: #6c93d4 4px solid;
+    display: flex;         
+    align-items: center;    
+    justify-content: center;
+}
+
+.text-sub{
+    font-family: 'BonmyeongjoSourceHanSerif';
+    font-weight:300;
+    font-size: 1.45rem;
+}
+
+.text-sub2{
+    font-family: 'Escoredream';
+    font-weight: 280;
+    font-size: 1.45rem;
+}
+
+.text-sub3{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 1.45rem;
+}
+
+.text-sub4{
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 1.45rem;
+}
+
+.text-sub5{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 2.1rem;
+}
+
+.text{
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.text2{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.text3{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.scene {
+    width: 0px;
+    height: 200px;
+    position: relative;
+    perspective: 500px;
+    
+}
+
+.cards-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.card {
+    position: absolute;
+    width: 350px;
+    height: 650px;
+    border-radius: 4px;
+    background: #111;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    backface-visibility: hidden;
+}
+
+.foottttt{
+    font-family: 'BonmyeongjoSourceHanSerif';
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+
+
+@media(max-width:768px ){
+
+    @font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BonmyeongjoSourceHanSerif';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+body{
+    background-color: rgb(175, 175, 175);
+}
+
+#container{
+    margin: 0 auto;
+    display: flex;
+}
+
+#mainContents{
+    width: 100%;
+    background-color: #f7f6f3;
+
+    overflow-x: hidden;
+
+    
+}
+
+
+.row{
+    width: 100%;
+    display:flex;
+}
+
+.row2{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.col1{width: 13%; padding:0.2rem;}
+
+.col2{width: 28%; padding: 0.2rem;}
+.col3{width: 100%; padding: 0.2rem;}
+
+.col4{width: 60%; padding: 0.2rem;}
+
+.col5{width: 48%; padding: 0.2rem;}
+.col6{width: 50%; padding: 0.2rem;}
+
+.col7{width: 25%; padding: 0.2rem;}
+.col8{width: 66.4%; padding: 0.2rem;}
+.col9{width: 74.7%; padding: 0.2rem;}
+.col10{width: 40%; padding: 0.2rem;}
+.col11{width: 100%; padding: 0.2rem;}
+.col12{width: 100%; padding: 0.2rem;}
+
+.h-10{height:10px;}
+.h-20{height:20px;}
+.h-40{height:30px;}
+.h-50{height:70px;}
+.h-80{height:80px;}
+.h-100{height:40px;}
+.h-200{height:200px;}
+.h-300{height:300px;}
+
+.h-m{height:360px;}
+
+.bg-white{background-color: white;}
+
+
+.imgsizeBox{
+    width: 100%;
+}
+
+.imgsize{
+    width: 108%;
+    object-fit: contain;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.menu{
+    list-style: none;
+
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 0.76rem;
+}
+
+.box{
+    height: 42px;
+    width: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left: #6c93d4 4px solid;
+    display: flex;         
+    align-items: center;    
+    justify-content: center;
+}
+
+.text-sub{
+    font-family: 'BonmyeongjoSourceHanSerif';
+    font-weight:200;
+    font-size: 1.2rem;
+}
+
+.text-sub2{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 1.15rem;
+}
+
+.text-sub3{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+.text-sub4{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.text-sub5{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.text{
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 0.67rem;
+}
+
+.text2{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 0.65rem;
+}
+
+.text3{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 0.6rem;
+}
+
+.mov-left{
+    position: absolute;
+    left:-150px;
+}
+
+.mov-down{
+   
+    position: absolute;
+    top:500px;
+    left:140px;
+
+}
+
+.mov-down1{
+   
+    position: absolute;
+    top:570px;
+    left:40px;
+    right:40px;
+
+}
+
+.mov-down2{
+   
+    position: absolute;
+    top:700px;
+    left:40px;
+
+}
+
+.mov-down3{
+   
+    position: absolute;
+    top:780px;
+    left:40px;
+
+}
+
+.mov-down4{
+   
+    position: absolute;
+    top:810px;
+    left:40px;
+
+}
+
+
+
+.mov-down5{
+   
+    position: absolute;
+    top:745px;
+    right:18px;
+
+
+}
+
+.mov-down6{
+   
+    position: absolute;
+    top:845px;
+    right:18px;
+
+
+}
+
+.mov-down7{
+   
+    position: absolute;
+    top:945px;
+    right:18px;
+
+
+}
+
+.mov-down8{
+   
+    position: absolute;
+    top:1045px;
+    right:18px;
+
+
+}
+
+.mov{
+    position: absolute;
+    left: 10px;
+}
+
+
+* { box-sizing: border-box; margin: 0; padding: 0;  }
+
+.scene {
+    width: 0px;
+    height: 100px;
+    position: relative;
+    perspective: 500px;
+    
+}
+
+.cards-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.card {
+    position: absolute;
+    width: 380px;
+    height: 600px;
+    border-radius: 4px;
+    background: #111;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    backface-visibility: hidden;
+}
+
+
+.foottttt{
+    font-family: 'BonmyeongjoSourceHanSerif';
+    font-weight: 200;
+    font-size: 0.6rem;
+}
+
+.align-t{
+    text-align: justify;
+}
+
+.gap{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+}
