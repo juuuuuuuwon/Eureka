@@ -79,6 +79,7 @@ body{
 }
 
 #container{
+    width:1420px;
     margin: 0 auto;
     display: flex;
 }
@@ -337,6 +338,8 @@ body{
 }
 
 #container{
+
+    width:100%;
     margin: 0 auto;
     display: flex;
 }
@@ -344,10 +347,7 @@ body{
 #mainContents{
     width: 100%;
     background-color: #f7f6f3;
-
     overflow-x: hidden;
-
-    
 }
 
 
@@ -362,7 +362,11 @@ body{
     justify-content: space-between;
 }
 
-.col1{width: 13%; padding:0.2rem;}
+
+.logo-pc .col1{ width: 18%; }
+
+
+.col1{width: 8%; padding:0.2rem;}
 
 .col2{width: 28%; padding: 0.2rem;}
 .col3{width: 100%; padding: 0.2rem;}
@@ -398,9 +402,15 @@ body{
 }
 
 .imgsize{
-    width: 108%;
+    width: 110%;
     object-fit: contain;
 }
+
+.imglogo{
+    width: 11%;
+    object-fit: contain;
+}
+
 
 
 a{
@@ -474,7 +484,7 @@ a{
 .text3{
     font-family: 'Escoredream';
     font-weight: 300;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 
 .mov-left{
@@ -561,11 +571,17 @@ a{
 
 }
 
+
+.mov-down9{
+   
+    position: absolute;
+    top:10px;
+}
+
 .mov{
     position: absolute;
     left: 10px;
 }
-
 
 * { box-sizing: border-box; margin: 0; padding: 0;  }
 
