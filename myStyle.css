@@ -364,6 +364,7 @@ body{
 
 
 .logo-pc .col1{ width: 18%; }
+.logo-pc .col2{width: 28%;}
 
 
 .col1{width: 8%; padding:0.2rem;}
@@ -407,7 +408,7 @@ body{
 }
 
 .imglogo{
-    width: 11%;
+    width: 14%;
     object-fit: contain;
 }
 
@@ -420,11 +421,12 @@ a{
 }
 
 .menu{
-    list-style: none;
+   
+        list-style: none;
 
-    font-family: 'Escoredream';
-    font-weight: 200;
-    font-size: 0.76rem;
+        font-family: 'Escoredream';
+        font-weight: 200;
+        font-size: 0.76rem;
 }
 
 .box{
